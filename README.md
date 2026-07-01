@@ -12,13 +12,16 @@ A simple end-to-end machine learning project that predicts the Fire Weather Inde
 
 ## Project Structure
 
-```
-models/
-notebooks/
-templates/
-application.py
-requirements.txt
-```
+forest-fire-prediction/
+│
+├── models/
+├── notebooks/
+├── templates/
+├── application.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── LICENSE
 
 ## Run Locally
 
