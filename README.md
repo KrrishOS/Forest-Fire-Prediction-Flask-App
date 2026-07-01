@@ -10,18 +10,31 @@ A simple end-to-end machine learning project that predicts the Fire Weather Inde
 - Pandas
 - NumPy
 
+
 ## Project Structure
 
-forest-fire-prediction/
+```text
+Forest-Fire-Prediction Flask App/
 │
 ├── models/
+│   ├── ridge.pkl
+│   └── scaler.pkl
+│
 ├── notebooks/
+│   ├── 2.0-EDA And FE Algerian Forest Fires.ipynb
+│   ├── 3.0-Model Training.ipynb
+│   └── Algerian_forest_fires_dataset_UPDATE.csv
+│
 ├── templates/
+│   ├── index.html
+│   └── home.html
+│
 ├── application.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
 └── LICENSE
+```
 
 ## Run Locally
 
